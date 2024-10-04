@@ -17,6 +17,7 @@ class DbFile {
   mutable std::vector<size_t> writes;
 
   // TODO pa2: add private member for file handler
+  int fd; // New private member for the file descriptor
 
 protected:
   const std::string name;
